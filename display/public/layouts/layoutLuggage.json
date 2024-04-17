@@ -49,21 +49,47 @@
       "autoTextBackgroundColor": true,
       "followOrientation": false
     },
-    "RawMessages!4kz4e7g": {
-      "topicPath": "speech",
+    "Note!1t79df2": {
+      "noteText": "User's Speech"
+    },
+    "RawMessages!gaqy4t": {
+      "topicPath": "/speech/raw_command",
       "diffTopicPath": "",
       "diffMethod": "custom",
       "diffEnabled": false,
       "showFullMessageForDiff": false
     },
-    "RawMessages!20i90hc": {
+    "Note!1v7rv92": {
+      "noteText": "FRIDA's Speech"
+    },
+    "RawMessages!8tl8n1": {
       "topicPath": "/speech/speak_now",
       "diffTopicPath": "",
       "diffMethod": "custom",
       "diffEnabled": false,
       "showFullMessageForDiff": false
     },
-    "ImageViewPanel!28wtg71": {
+    "Note!35vb1om": {
+      "noteText": "Normal camera vision"
+    },
+    "ImageViewPanel!1ypqtyq": {
+      "cameraTopic": "/zed2/zed_node/left/image_rect_color/compressed",
+      "enabledMarkerTopics": [],
+      "customMarkerTopicOptions": [],
+      "scale": 0.2,
+      "transformMarkers": false,
+      "synchronize": false,
+      "mode": "fit",
+      "zoomPercentage": 30.925925925925924,
+      "offset": [
+        63.55555555555554,
+        0
+      ]
+    },
+    "Note!3pqdg09": {
+      "noteText": "Tracking of user's position"
+    },
+    "ImageViewPanel!4f3jgoa": {
       "cameraTopic": "/image_tracking",
       "enabledMarkerTopics": [],
       "customMarkerTopicOptions": [],
@@ -77,21 +103,10 @@
         94.9375
       ]
     },
-    "ImageViewPanel!f7k4p4": {
-      "cameraTopic": "/detections_image/bag",
-      "enabledMarkerTopics": [],
-      "customMarkerTopicOptions": [],
-      "scale": 0.2,
-      "transformMarkers": true,
-      "synchronize": false,
-      "mode": "fit",
-      "zoomPercentage": 27.187499999999996,
-      "offset": [
-        0,
-        80.59375
-      ]
+    "Note!3xyul2m": {
+      "noteText": "Tracking of user's pointing direction"
     },
-    "ImageViewPanel!3gbdu4j": {
+    "ImageViewPanel!4gk5q6r": {
       "cameraTopic": "/pointing_direction",
       "enabledMarkerTopics": [],
       "customMarkerTopicOptions": [],
@@ -99,10 +114,24 @@
       "transformMarkers": false,
       "synchronize": false,
       "mode": "fit",
-      "zoomPercentage": 27.187499999999996,
+      "zoomPercentage": 30.925925925925924,
       "offset": [
-        0,
-        80.59375
+        63.05555555555554,
+        0
+      ]
+    },
+    "ImageViewPanel!489jigu": {
+      "cameraTopic": "/detections_image/bag",
+      "enabledMarkerTopics": [],
+      "customMarkerTopicOptions": [],
+      "scale": 0.2,
+      "transformMarkers": true,
+      "synchronize": false,
+      "mode": "fit",
+      "zoomPercentage": 31.296296296296294,
+      "offset": [
+        61.27777777777777,
+        0
       ]
     },
     "Tab!ns73bn": {
@@ -114,21 +143,57 @@
             "first": "3D Panel!86f11l",
             "second": {
               "first": {
-                "first": "RawMessages!4kz4e7g",
-                "second": "RawMessages!20i90hc",
+                "first": {
+                  "first": "Note!1t79df2",
+                  "second": "RawMessages!gaqy4t",
+                  "direction": "column",
+                  "splitPercentage": 10.646387832699618
+                },
+                "second": {
+                  "first": "Note!1v7rv92",
+                  "second": "RawMessages!8tl8n1",
+                  "direction": "column",
+                  "splitPercentage": 10.646387832699618
+                },
                 "direction": "row"
               },
               "second": {
-                "first": "ImageViewPanel!28wtg71",
+                "first": {
+                  "first": "Note!35vb1om",
+                  "second": {
+                    "first": "ImageViewPanel!1ypqtyq",
+                    "second": {
+                      "first": "Note!3pqdg09",
+                      "second": "ImageViewPanel!4f3jgoa",
+                      "direction": "column",
+                      "splitPercentage": 14.500000000000025
+                    },
+                    "direction": "column",
+                    "splitPercentage": 45.79945799457993
+                  },
+                  "direction": "column",
+                  "splitPercentage": 7.75
+                },
                 "second": {
-                  "first": "ImageViewPanel!f7k4p4",
-                  "second": "ImageViewPanel!3gbdu4j",
-                  "direction": "row"
+                  "first": {
+                    "first": "Note!3xyul2m",
+                    "second": "ImageViewPanel!4gk5q6r",
+                    "direction": "column",
+                    "splitPercentage": 15.499999999999996
+                  },
+                  "second": {
+                    "first": "Note!2bh2ce3",
+                    "second": "ImageViewPanel!489jigu",
+                    "direction": "column",
+                    "splitPercentage": 14.499999999999988
+                  },
+                  "direction": "column"
                 },
                 "direction": "row",
-                "splitPercentage": 38.19036427732081
+                "splitPercentage": 50.0587544065805
               },
-              "direction": "column"
+              "direction": "column",
+              "splitPercentage": 35.483870967741936
             },
             "direction": "row",
             "splitPercentage": 40.82058414464534
@@ -143,6 +208,9 @@
           "layout": null
         }
       ]
+    },
+    "Note!2bh2ce3": {
+      "noteText": "Tracking of bags' positions"
     }
   },
   "globalVariables": {},
