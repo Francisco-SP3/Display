@@ -64,11 +64,11 @@
       ]
     },
     "ImageViewPanel!34uzfg6": {
-      "cameraTopic": "/zed2/zed_node/right/image_rect_color/compressed",
+      "cameraTopic": "/person_detection",
       "enabledMarkerTopics": [],
       "customMarkerTopicOptions": [],
       "scale": 0.2,
-      "transformMarkers": false,
+      "transformMarkers": true,
       "synchronize": false,
       "mode": "fit",
       "zoomPercentage": 37.96296296296296,
