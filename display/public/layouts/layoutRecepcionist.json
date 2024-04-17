@@ -17,25 +17,25 @@
         "t:/zed2/zed_node/point_cloud/cloud_registered",
         "t:/map",
         "ns:/tf:BaseBrazo",
-        "ns:/tf:base_footprint",
         "ns:/tf:Loca1",
         "ns:/tf:Loca2",
-        "ns:/tf:Dedo1",
-        "ns:/tf:Dedo2",
-        "ns:/tf:zed2_base_link"
+        "ns:/tf:zed2_base_link",
+        "ns:/tf:Base"
       ],
-      "expandedKeys": [],
+      "expandedKeys": [
+        "t:/tf"
+      ],
       "followTf": "BaseBrazo",
       "cameraState": {
-        "distance": 3.281222081101179,
+        "distance": 4.479515886363088,
         "perspective": true,
-        "phi": 1.1780362002072657,
+        "phi": 1.2425523292395215,
         "targetOffset": [
-          0,
-          0,
+          -0.5001217204696677,
+          -0.6934575303217084,
           0
         ],
-        "thetaOffset": 1.520891364902508,
+        "thetaOffset": 3.7914631919596893,
         "fovy": 0.7853981633974483,
         "near": 0.01,
         "far": 5000
@@ -49,40 +49,47 @@
       "autoTextBackgroundColor": true,
       "followOrientation": false
     },
-    "3D Panel!2uxzexf": {
-      "checkedKeys": [
-        "name:Topics",
-        "t:/tf",
-        "t:/zed2/zed_node/point_cloud/cloud_registered",
-        "t:/map",
-        "ns:/tf:base_footprint"
-      ],
-      "expandedKeys": [
-        "name:Topics"
-      ],
-      "followTf": "BaseBrazo",
-      "cameraState": {
-        "distance": 2.467505786671294,
-        "perspective": false,
-        "phi": 0.9080975499005179,
-        "targetOffset": [
-          0,
-          0,
-          0
-        ],
-        "thetaOffset": 1.5821727019498621,
-        "fovy": 0.7853981633974483,
-        "near": 0.01,
-        "far": 5000
-      },
-      "modifiedNamespaceTopics": [
-        "/tf"
-      ],
-      "pinTopics": false,
-      "settingsByKey": {},
-      "autoSyncCameraState": false,
-      "autoTextBackgroundColor": true,
-      "followOrientation": false
+    "ImageViewPanel!wnsbib": {
+      "cameraTopic": "/zed2/zed_node/right/image_rect_color/compressed",
+      "enabledMarkerTopics": [],
+      "customMarkerTopicOptions": [],
+      "scale": 0.2,
+      "transformMarkers": false,
+      "synchronize": false,
+      "mode": "fit",
+      "zoomPercentage": 37.96296296296296,
+      "offset": [
+        176.27777777777777,
+        0
+      ]
+    },
+    "ImageViewPanel!34uzfg6": {
+      "cameraTopic": "/zed2/zed_node/right/image_rect_color/compressed",
+      "enabledMarkerTopics": [],
+      "customMarkerTopicOptions": [],
+      "scale": 0.2,
+      "transformMarkers": false,
+      "synchronize": false,
+      "mode": "fit",
+      "zoomPercentage": 37.96296296296296,
+      "offset": [
+        176.27777777777777,
+        -0.484375
+      ]
+    },
+    "ImageViewPanel!272zb2x": {
+      "cameraTopic": "/zed2/zed_node/right/image_rect_color/compressed",
+      "enabledMarkerTopics": [],
+      "customMarkerTopicOptions": [],
+      "scale": 0.2,
+      "transformMarkers": false,
+      "synchronize": false,
+      "mode": "fit",
+      "zoomPercentage": 37.96296296296296,
+      "offset": [
+        176.27777777777777,
+        -0.5
+      ]
     },
     "Tab!ns73bn": {
       "activeTabIdx": 0,
@@ -91,7 +98,16 @@
           "title": "General View",
           "layout": {
             "first": "3D Panel!86f11l",
-            "second": "3D Panel!2uxzexf",
+            "second": {
+              "first": "ImageViewPanel!wnsbib",
+              "second": {
+                "first": "ImageViewPanel!34uzfg6",
+                "second": "ImageViewPanel!272zb2x",
+                "direction": "column"
+              },
+              "direction": "column",
+              "splitPercentage": 33.387096774193544
+            },
             "direction": "row"
           }
         },
