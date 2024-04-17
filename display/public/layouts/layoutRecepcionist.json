@@ -1,9 +1,5 @@
 {
-  "layout": {
-    "first": "3D Panel!86f11l",
-    "second": "3D Panel!2uxzexf",
-    "direction": "row"
-  },
+  "layout": "Tab!ns73bn",
   "savedProps": {
     "3D Panel!86f11l": {
       "checkedKeys": [
@@ -87,6 +83,27 @@
       "autoSyncCameraState": false,
       "autoTextBackgroundColor": true,
       "followOrientation": false
+    },
+    "Tab!ns73bn": {
+      "activeTabIdx": 0,
+      "tabs": [
+        {
+          "title": "General View",
+          "layout": {
+            "first": "3D Panel!86f11l",
+            "second": "3D Panel!2uxzexf",
+            "direction": "row"
+          }
+        },
+        {
+          "title": "Navigation View",
+          "layout": null
+        },
+        {
+          "title": "Camera View",
+          "layout": null
+        }
+      ]
     }
   },
   "globalVariables": {},
@@ -99,5 +116,5 @@
   },
   "version": 19,
   "isFromUrl": false,
-  "skipSettingLocalStorage": true
+  "skipSettingLocalStorage": false
 }
