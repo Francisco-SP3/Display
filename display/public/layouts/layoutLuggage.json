@@ -1,22 +1,124 @@
 {
-  "layout": {
-    "first": "3D Panel!ci7xii",
-    "second": "ImageViewPanel!1419n06",
-    "direction": "row"
-  },
+  "layout": "Tab!ns73bn",
   "savedProps": {
-    "ImageViewPanel!1419n06": {
-      "cameraTopic": "/shelf_detection_image",
+    "3D Panel!86f11l": {
+      "checkedKeys": [
+        "name:Topics",
+        "t:/tf",
+        "ns:/tf:Llanta1",
+        "ns:/tf:Llanta2",
+        "ns:/tf:link1",
+        "ns:/tf:link2",
+        "ns:/tf:link3",
+        "ns:/tf:link4",
+        "ns:/tf:link5",
+        "ns:/tf:link6",
+        "ns:/tf:Lidar",
+        "t:/zed2/zed_node/point_cloud/cloud_registered",
+        "t:/map",
+        "ns:/tf:BaseBrazo",
+        "ns:/tf:Loca1",
+        "ns:/tf:Loca2",
+        "ns:/tf:zed2_base_link",
+        "ns:/tf:Base"
+      ],
+      "expandedKeys": [
+        "t:/tf"
+      ],
+      "followTf": "BaseBrazo",
+      "cameraState": {
+        "distance": 4.479515886363088,
+        "perspective": true,
+        "phi": 1.2425523292395215,
+        "targetOffset": [
+          -0.5001217204696677,
+          -0.6934575303217084,
+          0
+        ],
+        "thetaOffset": 3.7914631919596893,
+        "fovy": 0.7853981633974483,
+        "near": 0.01,
+        "far": 5000
+      },
+      "modifiedNamespaceTopics": [
+        "/tf"
+      ],
+      "pinTopics": false,
+      "settingsByKey": {},
+      "autoSyncCameraState": false,
+      "autoTextBackgroundColor": true,
+      "followOrientation": false
+    },
+    "ImageViewPanel!wnsbib": {
+      "cameraTopic": "/zed2/zed_node/right/image_rect_color/compressed",
       "enabledMarkerTopics": [],
       "customMarkerTopicOptions": [],
       "scale": 0.2,
-      "transformMarkers": true,
+      "transformMarkers": false,
       "synchronize": false,
       "mode": "fit",
-      "zoomPercentage": 87.22222222222223,
+      "zoomPercentage": 37.96296296296296,
       "offset": [
-        196.33333333333331,
+        176.27777777777777,
         0
+      ]
+    },
+    "ImageViewPanel!34uzfg6": {
+      "cameraTopic": "/zed2/zed_node/right/image_rect_color/compressed",
+      "enabledMarkerTopics": [],
+      "customMarkerTopicOptions": [],
+      "scale": 0.2,
+      "transformMarkers": false,
+      "synchronize": false,
+      "mode": "fit",
+      "zoomPercentage": 37.96296296296296,
+      "offset": [
+        176.27777777777777,
+        -0.484375
+      ]
+    },
+    "ImageViewPanel!272zb2x": {
+      "cameraTopic": "/zed2/zed_node/right/image_rect_color/compressed",
+      "enabledMarkerTopics": [],
+      "customMarkerTopicOptions": [],
+      "scale": 0.2,
+      "transformMarkers": false,
+      "synchronize": false,
+      "mode": "fit",
+      "zoomPercentage": 37.96296296296296,
+      "offset": [
+        176.27777777777777,
+        -0.5
+      ]
+    },
+    "Tab!ns73bn": {
+      "activeTabIdx": 0,
+      "tabs": [
+        {
+          "title": "General View",
+          "layout": {
+            "first": "3D Panel!86f11l",
+            "second": {
+              "first": "ImageViewPanel!wnsbib",
+              "second": {
+                "first": "ImageViewPanel!34uzfg6",
+                "second": "ImageViewPanel!272zb2x",
+                "direction": "column"
+              },
+              "direction": "column",
+              "splitPercentage": 33.387096774193544
+            },
+            "direction": "row"
+          }
+        },
+        {
+          "title": "Navigation View",
+          "layout": null
+        },
+        {
+          "title": "Camera View",
+          "layout": null
+        }
       ]
     }
   },
