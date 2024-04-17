@@ -1,7 +1,7 @@
 {
   "layout": "Tab!ns73bn",
   "savedProps": {
-    "3D Panel!86f11l": {
+    "3D Panel!4ezjx8u": {
       "checkedKeys": [
         "name:Topics",
         "t:/tf",
@@ -120,6 +120,9 @@
         0
       ]
     },
+    "Note!2bh2ce3": {
+      "noteText": "Tracking of bags' positions"
+    },
     "ImageViewPanel!489jigu": {
       "cameraTopic": "/detections_image/bag",
       "enabledMarkerTopics": [],
@@ -140,20 +143,25 @@
         {
           "title": "General View",
           "layout": {
-            "first": "3D Panel!86f11l",
+            "first": {
+              "first": "Note!jbk9hw",
+              "second": "3D Panel!4ezjx8u",
+              "direction": "column",
+              "splitPercentage": 4.193548387096775
+            },
             "second": {
               "first": {
                 "first": {
                   "first": "Note!1t79df2",
                   "second": "RawMessages!gaqy4t",
                   "direction": "column",
-                  "splitPercentage": 10.646387832699618
+                  "splitPercentage": 11.81818181818182
                 },
                 "second": {
                   "first": "Note!1v7rv92",
                   "second": "RawMessages!8tl8n1",
                   "direction": "column",
-                  "splitPercentage": 10.646387832699618
+                  "splitPercentage": 11.81818181818182
                 },
                 "direction": "row"
               },
@@ -209,8 +217,8 @@
         }
       ]
     },
-    "Note!2bh2ce3": {
-      "noteText": "Tracking of bags' positions"
+    "Note!jbk9hw": {
+      "noteText": "Robot's 3D position and 3D camera view"
     }
   },
   "globalVariables": {},
