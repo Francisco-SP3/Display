@@ -49,46 +49,60 @@
       "autoTextBackgroundColor": true,
       "followOrientation": false
     },
-    "ImageViewPanel!wnsbib": {
-      "cameraTopic": "/zed2/zed_node/right/image_rect_color/compressed",
+    "RawMessages!4kz4e7g": {
+      "topicPath": "speech",
+      "diffTopicPath": "",
+      "diffMethod": "custom",
+      "diffEnabled": false,
+      "showFullMessageForDiff": false
+    },
+    "RawMessages!20i90hc": {
+      "topicPath": "/speech/speak_now",
+      "diffTopicPath": "",
+      "diffMethod": "custom",
+      "diffEnabled": false,
+      "showFullMessageForDiff": false
+    },
+    "ImageViewPanel!28wtg71": {
+      "cameraTopic": "/image_tracking",
       "enabledMarkerTopics": [],
       "customMarkerTopicOptions": [],
       "scale": 0.2,
-      "transformMarkers": false,
+      "transformMarkers": true,
       "synchronize": false,
       "mode": "fit",
-      "zoomPercentage": 37.96296296296296,
+      "zoomPercentage": 21.875,
       "offset": [
-        176.27777777777777,
-        0
+        0,
+        94.9375
       ]
     },
-    "ImageViewPanel!34uzfg6": {
-      "cameraTopic": "/zed2/zed_node/right/image_rect_color/compressed",
+    "ImageViewPanel!f7k4p4": {
+      "cameraTopic": "/detections_image/bag",
       "enabledMarkerTopics": [],
       "customMarkerTopicOptions": [],
       "scale": 0.2,
-      "transformMarkers": false,
+      "transformMarkers": true,
       "synchronize": false,
       "mode": "fit",
-      "zoomPercentage": 37.96296296296296,
+      "zoomPercentage": 27.187499999999996,
       "offset": [
-        176.27777777777777,
-        -0.484375
+        0,
+        80.59375
       ]
     },
-    "ImageViewPanel!272zb2x": {
-      "cameraTopic": "/zed2/zed_node/right/image_rect_color/compressed",
+    "ImageViewPanel!3gbdu4j": {
+      "cameraTopic": "/pointing_direction",
       "enabledMarkerTopics": [],
       "customMarkerTopicOptions": [],
       "scale": 0.2,
       "transformMarkers": false,
       "synchronize": false,
       "mode": "fit",
-      "zoomPercentage": 37.96296296296296,
+      "zoomPercentage": 27.187499999999996,
       "offset": [
-        176.27777777777777,
-        -0.5
+        0,
+        80.59375
       ]
     },
     "Tab!ns73bn": {
@@ -99,16 +113,25 @@
           "layout": {
             "first": "3D Panel!86f11l",
             "second": {
-              "first": "ImageViewPanel!wnsbib",
-              "second": {
-                "first": "ImageViewPanel!34uzfg6",
-                "second": "ImageViewPanel!272zb2x",
-                "direction": "column"
+              "first": {
+                "first": "RawMessages!4kz4e7g",
+                "second": "RawMessages!20i90hc",
+                "direction": "row"
               },
-              "direction": "column",
-              "splitPercentage": 33.387096774193544
+              "second": {
+                "first": "ImageViewPanel!28wtg71",
+                "second": {
+                  "first": "ImageViewPanel!f7k4p4",
+                  "second": "ImageViewPanel!3gbdu4j",
+                  "direction": "row"
+                },
+                "direction": "row",
+                "splitPercentage": 38.19036427732081
+              },
+              "direction": "column"
             },
-            "direction": "row"
+            "direction": "row",
+            "splitPercentage": 40.82058414464534
           }
         },
         {
