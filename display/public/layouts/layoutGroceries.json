@@ -1,22 +1,223 @@
 {
-  "layout": {
-    "first": "3D Panel!ci7xii",
-    "second": "ImageViewPanel!1419n06",
-    "direction": "row"
-  },
+  "layout": "Tab!ns73bn",
   "savedProps": {
-    "ImageViewPanel!1419n06": {
-      "cameraTopic": "/shelf_detection_image",
+    "Note!jbk9hw": {
+      "noteText": "Robot's 3D position and 3D camera view"
+    },
+    "3D Panel!4ezjx8u": {
+      "checkedKeys": [
+        "name:Topics",
+        "t:/tf",
+        "ns:/tf:Llanta1",
+        "ns:/tf:Llanta2",
+        "ns:/tf:link1",
+        "ns:/tf:link2",
+        "ns:/tf:link3",
+        "ns:/tf:link4",
+        "ns:/tf:link5",
+        "ns:/tf:link6",
+        "ns:/tf:Lidar",
+        "t:/zed2/zed_node/point_cloud/cloud_registered",
+        "t:/map",
+        "ns:/tf:BaseBrazo",
+        "ns:/tf:Loca1",
+        "ns:/tf:Loca2",
+        "ns:/tf:zed2_base_link",
+        "ns:/tf:Base"
+      ],
+      "expandedKeys": [
+        "t:/tf"
+      ],
+      "followTf": "BaseBrazo",
+      "cameraState": {
+        "distance": 4.479515886363088,
+        "perspective": true,
+        "phi": 1.1457781356911352,
+        "targetOffset": [
+          1.1731173400919475,
+          0.15457670441582264,
+          0
+        ],
+        "thetaOffset": 1.4651033593237062,
+        "fovy": 0.7853981633974483,
+        "near": 0.01,
+        "far": 5000
+      },
+      "modifiedNamespaceTopics": [
+        "/tf"
+      ],
+      "pinTopics": false,
+      "settingsByKey": {},
+      "autoSyncCameraState": false,
+      "autoTextBackgroundColor": true,
+      "followOrientation": false
+    },
+    "Note!1t79df2": {
+      "noteText": "User's Speech"
+    },
+    "RawMessages!gaqy4t": {
+      "topicPath": "/speech/raw_command",
+      "diffTopicPath": "",
+      "diffMethod": "custom",
+      "diffEnabled": false,
+      "showFullMessageForDiff": false
+    },
+    "Note!1v7rv92": {
+      "noteText": "FRIDA's Speech"
+    },
+    "RawMessages!8tl8n1": {
+      "topicPath": "/speech/speak_now",
+      "diffTopicPath": "",
+      "diffMethod": "custom",
+      "diffEnabled": false,
+      "showFullMessageForDiff": false
+    },
+    "Note!35vb1om": {
+      "noteText": "Normal camera vision"
+    },
+    "ImageViewPanel!1ypqtyq": {
+      "cameraTopic": "/zed2/zed_node/left/image_rect_color/compressed",
+      "enabledMarkerTopics": [],
+      "customMarkerTopicOptions": [],
+      "scale": 0.2,
+      "transformMarkers": false,
+      "synchronize": false,
+      "mode": "fit",
+      "zoomPercentage": 24.444444444444443,
+      "offset": [
+        73.16666666666667,
+        0
+      ]
+    },
+    "Note!3pqdg09": {
+      "noteText": "Tracking of user's position"
+    },
+    "ImageViewPanel!4f3jgoa": {
+      "cameraTopic": "/image_tracking",
       "enabledMarkerTopics": [],
       "customMarkerTopicOptions": [],
       "scale": 0.2,
       "transformMarkers": true,
       "synchronize": false,
       "mode": "fit",
-      "zoomPercentage": 87.22222222222223,
+      "zoomPercentage": 21.875,
       "offset": [
-        196.33333333333331,
+        0,
+        94.9375
+      ]
+    },
+    "Note!3xyul2m": {
+      "noteText": "Tracking of user's pointing direction"
+    },
+    "ImageViewPanel!4gk5q6r": {
+      "cameraTopic": "/pointing_direction",
+      "enabledMarkerTopics": [],
+      "customMarkerTopicOptions": [],
+      "scale": 0.2,
+      "transformMarkers": false,
+      "synchronize": false,
+      "mode": "fit",
+      "zoomPercentage": 30.925925925925924,
+      "offset": [
+        63.05555555555554,
         0
+      ]
+    },
+    "Note!2bh2ce3": {
+      "noteText": "Tracking of bags' positions"
+    },
+    "ImageViewPanel!489jigu": {
+      "cameraTopic": "/detections_image/bag",
+      "enabledMarkerTopics": [],
+      "customMarkerTopicOptions": [],
+      "scale": 0.2,
+      "transformMarkers": true,
+      "synchronize": false,
+      "mode": "fit",
+      "zoomPercentage": 31.296296296296294,
+      "offset": [
+        61.27777777777777,
+        0
+      ]
+    },
+    "Tab!ns73bn": {
+      "activeTabIdx": 0,
+      "tabs": [
+        {
+          "title": "General View",
+          "layout": {
+            "first": {
+              "first": "Note!jbk9hw",
+              "second": "3D Panel!4ezjx8u",
+              "direction": "column",
+              "splitPercentage": 5.252525252525253
+            },
+            "second": {
+              "first": {
+                "first": {
+                  "first": "Note!1t79df2",
+                  "second": "RawMessages!gaqy4t",
+                  "direction": "column",
+                  "splitPercentage": 14.802571166207528
+                },
+                "second": {
+                  "first": "Note!1v7rv92",
+                  "second": "RawMessages!8tl8n1",
+                  "direction": "column",
+                  "splitPercentage": 14.802571166207528
+                },
+                "direction": "row"
+              },
+              "second": {
+                "first": {
+                  "first": "Note!35vb1om",
+                  "second": {
+                    "first": "ImageViewPanel!1ypqtyq",
+                    "second": {
+                      "first": "Note!3pqdg09",
+                      "second": "ImageViewPanel!4f3jgoa",
+                      "direction": "column",
+                      "splitPercentage": 16.250853242320858
+                    },
+                    "direction": "column",
+                    "splitPercentage": 45.79945799457993
+                  },
+                  "direction": "column",
+                  "splitPercentage": 8.252525252525254
+                },
+                "second": {
+                  "first": {
+                    "first": "Note!3xyul2m",
+                    "second": "ImageViewPanel!4gk5q6r",
+                    "direction": "column",
+                    "splitPercentage": 16.505050505050505
+                  },
+                  "second": {
+                    "first": "Note!2bh2ce3",
+                    "second": "ImageViewPanel!489jigu",
+                    "direction": "column",
+                    "splitPercentage": 16.707070707070702
+                  },
+                  "direction": "column"
+                },
+                "direction": "row",
+                "splitPercentage": 50.0587544065805
+              },
+              "direction": "column",
+              "splitPercentage": 35.483870967741936
+            },
+            "direction": "row",
+            "splitPercentage": 40.82058414464534
+          }
+        },
+        {
+          "title": "Navigation View",
+          "layout": null
+        },
+        {
+          "title": "Camera View",
+          "layout": null
+        }
       ]
     }
   },
