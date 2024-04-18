@@ -5,52 +5,107 @@
       "noteText": "Robot's 3D position and 3D camera view"
     },
     "3D Panel!4ezjx8u": {
-      "checkedKeys": [
-        "name:Topics",
-        "t:/tf",
-        "ns:/tf:Llanta1",
-        "ns:/tf:Llanta2",
-        "ns:/tf:link1",
-        "ns:/tf:link2",
-        "ns:/tf:link3",
-        "ns:/tf:link4",
-        "ns:/tf:link5",
-        "ns:/tf:link6",
-        "ns:/tf:Lidar",
-        "t:/zed2/zed_node/point_cloud/cloud_registered",
-        "t:/map",
-        "ns:/tf:BaseBrazo",
-        "ns:/tf:Loca1",
-        "ns:/tf:Loca2",
-        "ns:/tf:zed2_base_link",
-        "ns:/tf:Base"
-      ],
-      "expandedKeys": [
-        "t:/tf"
-      ],
-      "followTf": "BaseBrazo",
-      "cameraState": {
-        "distance": 4.479515886363088,
-        "perspective": true,
-        "phi": 1.1457781356911352,
-        "targetOffset": [
-          1.1731173400919475,
-          0.15457670441582264,
-          0
-        ],
-        "thetaOffset": 1.4651033593237062,
-        "fovy": 0.7853981633974483,
-        "near": 0.01,
-        "far": 5000
+      "layout": {
+        "first": "3D Panel!86f11l",
+        "second": "3D Panel!2uxzexf",
+        "direction": "row"
       },
-      "modifiedNamespaceTopics": [
-        "/tf"
-      ],
-      "pinTopics": false,
-      "settingsByKey": {},
-      "autoSyncCameraState": false,
-      "autoTextBackgroundColor": true,
-      "followOrientation": false
+      "savedProps": {
+        "3D Panel!86f11l": {
+          "checkedKeys": [
+            "name:Topics",
+            "t:/tf",
+            "ns:/tf:Llanta1",
+            "ns:/tf:Llanta2",
+            "ns:/tf:link1",
+            "ns:/tf:link2",
+            "ns:/tf:link3",
+            "ns:/tf:link4",
+            "ns:/tf:link5",
+            "ns:/tf:link6",
+            "ns:/tf:Lidar",
+            "t:/zed2/zed_node/point_cloud/cloud_registered",
+            "t:/map",
+            "ns:/tf:BaseBrazo",
+            "ns:/tf:base_footprint",
+            "ns:/tf:Loca1",
+            "ns:/tf:Loca2",
+            "ns:/tf:Dedo1",
+            "ns:/tf:Dedo2",
+            "ns:/tf:zed2_base_link"
+          ],
+          "expandedKeys": [],
+          "followTf": "BaseBrazo",
+          "cameraState": {
+            "distance": 3.281222081101179,
+            "perspective": true,
+            "phi": 1.1780362002072657,
+            "targetOffset": [
+              0,
+              0,
+              0
+            ],
+            "thetaOffset": 1.520891364902508,
+            "fovy": 0.7853981633974483,
+            "near": 0.01,
+            "far": 5000
+          },
+          "modifiedNamespaceTopics": [
+            "/tf"
+          ],
+          "pinTopics": false,
+          "settingsByKey": {},
+          "autoSyncCameraState": false,
+          "autoTextBackgroundColor": true,
+          "followOrientation": false
+        },
+        "3D Panel!2uxzexf": {
+          "checkedKeys": [
+            "name:Topics",
+            "t:/tf",
+            "t:/zed2/zed_node/point_cloud/cloud_registered",
+            "t:/map",
+            "ns:/tf:base_footprint"
+          ],
+          "expandedKeys": [
+            "name:Topics"
+          ],
+          "followTf": "BaseBrazo",
+          "cameraState": {
+            "distance": 2.467505786671294,
+            "perspective": false,
+            "phi": 0.9080975499005179,
+            "targetOffset": [
+              0,
+              0,
+              0
+            ],
+            "thetaOffset": 1.5821727019498621,
+            "fovy": 0.7853981633974483,
+            "near": 0.01,
+            "far": 5000
+          },
+          "modifiedNamespaceTopics": [
+            "/tf"
+          ],
+          "pinTopics": false,
+          "settingsByKey": {},
+          "autoSyncCameraState": false,
+          "autoTextBackgroundColor": true,
+          "followOrientation": false
+        }
+      },
+      "globalVariables": {},
+      "userNodes": {},
+      "linkedGlobalVariables": [],
+      "playbackConfig": {
+        "speed": 1,
+        "messageOrder": "receiveTime",
+        "timeDisplayMethod": "TOD"
+      },
+      "version": 19,
+      "isFromUrl": false,
+      "skipSettingLocalStorage": false
     },
     "Note!1t79df2": {
       "noteText": "User's Speech"
