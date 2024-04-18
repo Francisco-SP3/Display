@@ -1,6 +1,9 @@
 {
   "layout": "Tab!ns73bn",
   "savedProps": {
+    "Note!jbk9hw": {
+      "noteText": "Robot's 3D position and 3D camera view"
+    },
     "3D Panel!4ezjx8u": {
       "checkedKeys": [
         "name:Topics",
@@ -80,9 +83,9 @@
       "transformMarkers": false,
       "synchronize": false,
       "mode": "fit",
-      "zoomPercentage": 30.925925925925924,
+      "zoomPercentage": 24.444444444444443,
       "offset": [
-        63.55555555555554,
+        73.16666666666667,
         0
       ]
     },
@@ -147,7 +150,7 @@
               "first": "Note!jbk9hw",
               "second": "3D Panel!4ezjx8u",
               "direction": "column",
-              "splitPercentage": 4.193548387096775
+              "splitPercentage": 5.252525252525253
             },
             "second": {
               "first": {
@@ -155,13 +158,13 @@
                   "first": "Note!1t79df2",
                   "second": "RawMessages!gaqy4t",
                   "direction": "column",
-                  "splitPercentage": 11.81818181818182
+                  "splitPercentage": 14.802571166207528
                 },
                 "second": {
                   "first": "Note!1v7rv92",
                   "second": "RawMessages!8tl8n1",
                   "direction": "column",
-                  "splitPercentage": 11.81818181818182
+                  "splitPercentage": 14.802571166207528
                 },
                 "direction": "row"
               },
@@ -174,26 +177,26 @@
                       "first": "Note!3pqdg09",
                       "second": "ImageViewPanel!4f3jgoa",
                       "direction": "column",
-                      "splitPercentage": 14.500000000000025
+                      "splitPercentage": 16.250853242320858
                     },
                     "direction": "column",
                     "splitPercentage": 45.79945799457993
                   },
                   "direction": "column",
-                  "splitPercentage": 7.75
+                  "splitPercentage": 8.252525252525254
                 },
                 "second": {
                   "first": {
                     "first": "Note!3xyul2m",
                     "second": "ImageViewPanel!4gk5q6r",
                     "direction": "column",
-                    "splitPercentage": 15.499999999999996
+                    "splitPercentage": 16.505050505050505
                   },
                   "second": {
                     "first": "Note!2bh2ce3",
                     "second": "ImageViewPanel!489jigu",
                     "direction": "column",
-                    "splitPercentage": 14.499999999999988
+                    "splitPercentage": 16.707070707070702
                   },
                   "direction": "column"
                 },
@@ -216,9 +219,6 @@
           "layout": null
         }
       ]
-    },
-    "Note!jbk9hw": {
-      "noteText": "Robot's 3D position and 3D camera view"
     }
   },
   "globalVariables": {},
