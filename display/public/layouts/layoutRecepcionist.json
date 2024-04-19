@@ -17,28 +17,18 @@
     },
     "second": {
       "first": {
-        "first": {
-          "first": "Note!3kd1kpk",
-          "second": "ImageViewPanel!3blfjnb",
-          "direction": "column",
-          "splitPercentage": 10.000000000000007
-        },
-        "second": {
-          "first": "Note!3aa2rla",
-          "second": "ImageViewPanel!ml9c3a",
-          "direction": "column",
-          "splitPercentage": 10.000000000000007
-        },
-        "direction": "row"
+        "first": "Note!3kd1kpk",
+        "second": "ImageViewPanel!3blfjnb",
+        "direction": "column",
+        "splitPercentage": 10.000000000000007
       },
       "second": {
-        "first": "Note!2sf9lq5",
-        "second": "ImageViewPanel!4gk5q6r",
+        "first": "Note!3aa2rla",
+        "second": "ImageViewPanel!ml9c3a",
         "direction": "column",
-        "splitPercentage": 9.655172413793101
+        "splitPercentage": 10.000000000000007
       },
-      "direction": "row",
-      "splitPercentage": 67.12962962962963
+      "direction": "row"
     },
     "direction": "column",
     "splitPercentage": 44.97153700189753
@@ -75,14 +65,14 @@
       "transformMarkers": false,
       "synchronize": false,
       "mode": "fit",
-      "zoomPercentage": 45.104166666666664,
+      "zoomPercentage": 47.96296296296296,
       "offset": [
-        0,
-        7.71875
+        92.77777777777777,
+        0
       ]
     },
     "Note!3aa2rla": {
-      "noteText": "Face recognition"
+      "noteText": "Person recognition"
     },
     "ImageViewPanel!ml9c3a": {
       "cameraTopic": "/person_detection",
@@ -96,23 +86,6 @@
       "offset": [
         0,
         7.71875
-      ]
-    },
-    "Note!2sf9lq5": {
-      "noteText": "Seat recognition"
-    },
-    "ImageViewPanel!4gk5q6r": {
-      "cameraTopic": "/pointing_direction",
-      "enabledMarkerTopics": [],
-      "customMarkerTopicOptions": [],
-      "scale": 0.2,
-      "transformMarkers": false,
-      "synchronize": false,
-      "mode": "fit",
-      "zoomPercentage": 30.925925925925924,
-      "offset": [
-        63.05555555555554,
-        0
       ]
     }
   },
