@@ -72,7 +72,7 @@
       ]
     },
     "Note!3aa2rla": {
-      "noteText": "Person recognition"
+      "noteText": "Person detection"
     },
     "ImageViewPanel!ml9c3a": {
       "cameraTopic": "/person_detection",
@@ -82,10 +82,10 @@
       "transformMarkers": true,
       "synchronize": false,
       "mode": "fit",
-      "zoomPercentage": 45.104166666666664,
+      "zoomPercentage": 47.96296296296296,
       "offset": [
-        0,
-        7.71875
+        92.77777777777777,
+        0
       ]
     }
   },
